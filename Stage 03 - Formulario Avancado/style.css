@@ -1,0 +1,214 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+legend,
+button {
+  font-family: "Staatliches", cursive;
+}
+
+label {
+  color: #4e4958;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+body {
+  background: #bfd7e4;
+}
+
+body::before {
+  position: absolute;
+  width: 100%;
+  height: 465px;
+  left: 0px;
+  top: 0px;
+  background: #293241;
+  z-index: -1;
+  content: "";
+}
+
+header {
+  padding-top: 107px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+header p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+#logo-nota {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+fieldset {
+  border: none;
+}
+
+h2 {
+  height: 133px;
+  background: #f67669;
+  border-radius: 20px 20px 0px 0px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffffff;
+  padding: 50px 275px;
+}
+
+form {
+  background: #ffffff;
+  border-radius: 0px 0px 20px 20px;
+  padding: 32px 64px 64px 64px;
+}
+
+input {
+  padding-left: 4px;
+  height: 55.53px;
+  margin-top: 7.93px;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+}
+
+#name-surname {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+}
+
+#first-name,
+#surname {
+  width: 300px;
+  margin-bottom: 15.87px;
+}
+
+.input-wrapper span {
+  color: #c1bccc;
+}
+
+.input-wrapper span:hover {
+  color: #a5a2ab;
+}
+
+#email {
+  width: 622px;
+  margin-bottom: 31.73px;
+}
+
+legend {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #253b51;
+  text-align: center;
+  border-bottom: 1px solid #e6e6f0;
+}
+
+#legendInformacao {
+  padding-bottom: 7.93px;
+  margin-bottom: 39.66px;
+}
+
+#legendAgendamento {
+  padding-bottom: 10px;
+  margin-bottom: 31px;
+}
+
+#mentor-name {
+  width: 300px;
+  height: 53.53px;
+  margin-bottom: 31.73px;
+}
+
+.mentorInputOrder {
+  display: flex;
+  flex-flow: column;
+}
+
+.mentorFeedbackArea {
+  display: flex;
+  flex-flow: column;
+}
+
+#feedback {
+  box-sizing: border-box;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  padding-left: 4px;
+  width: 608px;
+  height: 166.59px;
+}
+
+.checkbox-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 36px;
+}
+
+.checkbox-wrapper label {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 6px;
+}
+
+#checkbox-questions {
+  width: 24px;
+  height: 23.8px;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.dateTime {
+  display: flex;
+  flex-direction: row;
+}
+
+#event-date {
+  width: 300px;
+  margin-right: 32px;
+}
+
+#event-beggin,
+#event-end {
+  width: 140px;
+  gap: 10px;
+}
+
+button {
+  margin-top: 63.74px;
+  width: 622px;
+  height: 51px;
+  background: #f67669;
+  border-radius: 8px;
+}
+
+button span {
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
