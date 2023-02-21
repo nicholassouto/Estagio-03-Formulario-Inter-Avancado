@@ -1,7 +1,7 @@
 
 # Mentoria
 
-Pagina com foco em menbtorias.
+Pagina com foco em mentorias.
 
 Você que esta sem rumo em como lidar com seu dia a dia, agende uma mentoria conosco e nos o ajudaremos a otimizar o seu tempo.
 
